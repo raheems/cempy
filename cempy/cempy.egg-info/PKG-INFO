@@ -7,6 +7,10 @@ Author: Enayetur Raheem
 Author-email: eraheem@dataskool.com
 License: LICENSE.md
 Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Licence :: OSI Aproved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
 
 # `cempy`
 

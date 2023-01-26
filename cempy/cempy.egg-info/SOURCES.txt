@@ -1,4 +1,5 @@
 README.md
+setup.cfg
 setup.py
 cempy.egg-info/PKG-INFO
 cempy.egg-info/SOURCES.txt

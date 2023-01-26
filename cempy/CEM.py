@@ -276,7 +276,7 @@ class CEM:
                 , min((treatment_LCI - control_LCI) / control_LCI, (treatment_LCI - control_UCI) / control_UCI,
                       (treatment_UCI - control_LCI) / control_LCI, (treatment_UCI - control_UCI) / control_UCI)
                 , max(
-                    (tareatment_LCI - control_LCI) / control_LCI, (treatment_LCI - control_UCI) / control_UCI,
+                    (treatment_LCI - control_LCI) / control_LCI, (treatment_LCI - control_UCI) / control_UCI,
                     (treatment_UCI - control_LCI) / control_LCI, (treatment_UCI - control_UCI) / control_UCI
 
                 )
