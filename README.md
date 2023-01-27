@@ -4,9 +4,13 @@ Coarsened Exact Matching for causal inference with Python
 
 # Introduction
 
-Matching is a technique of drawing causal inference from observational data. Unlike randomized control trials, which is a gold standard for causal inference in medical fields, there are many situations where randomization to treatment and control groups are not possible. Instead, observed data are used as they are available and observations in treatment and controls are matched to determine the causal effect. The groups are formed naturally and exact matching performs (one to one, one to many, many to many) matching on the coarsened features. 
+Matching is a technique of drawing causal inference from observational data. Unlike randomized control trials, which is a gold standard for causal inference in medical fields, there are many situations where randomization to treatment and control groups are not possible. Instead, observed data are used as they are available and observations in treatment and controls are matched to determine the causal effect. 
 
-For details of coarsened exact matching, please see the references below
+The groups are formed naturally and CEM performs (one to one, one to many, many to many) matching between treatment and control groups on the coarsened features.
+
+The coarsening has to be performed beforehand. 
+
+For details of coarsened exact matching, please see the references below.
 
 # Installation
 
