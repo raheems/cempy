@@ -1,6 +1,6 @@
 # `cempy`
 
-Coarsened Exact Matching with Python
+Coarsened Exact Matching for causal inference with Python
 
 # Introduction
 
