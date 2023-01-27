@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: cempy
+Version: 0.0.1
+Summary: CEM with Python
+Home-page: https://github.com/raheems/cempy
+Author: Enayetur Raheem
+Author-email: eraheem@dataskool.com
+License: MIT license
+Keywords: cempy
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+License-File: LICENSE
+License-File: AUTHORS.rst
+
+=====
+cempy
+=====
+
+
+.. image:: https://img.shields.io/pypi/v/cempy.svg
+        :target: https://pypi.python.org/pypi/cempy
+
+.. image:: https://img.shields.io/travis/raheems/cempy.svg
+        :target: https://travis-ci.com/raheems/cempy
+
+.. image:: https://readthedocs.org/projects/cempy/badge/?version=latest
+        :target: https://cempy.readthedocs.io/en/latest/?version=latest
+        :alt: Documentation Status
+
+
+
+
+CEM with Python
+
+
+* Free software: MIT license
+* Documentation: https://cempy.readthedocs.io.
+
+
+Features
+--------
+
+* TODO
+
+Credits
+-------
+
+This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+
+.. _Cookiecutter: https://github.com/audreyr/cookiecutter
+.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+
+
+=======
+History
+=======
+
+0.0.1 (2023-01-27)
+------------------
+
+* First release on PyPI.
+
+
