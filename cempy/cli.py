@@ -1,6 +1,6 @@
 """Console script for cempy."""
 import sys
-import click
+import cl
 
 
 @click.command()
