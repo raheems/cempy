@@ -245,10 +245,6 @@ class CEM:
         if not metrics:
             metrics = self.metric
 
-        # Remove constant 0 columns from the list of metric to run
-        # data_matched_weights = self.get_weighted_data()
-        # mt = self.matched_table()
-
         Control = 'Control'
 
         i = 1
