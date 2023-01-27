@@ -10,10 +10,43 @@ For details of coarsened exact matching, please see the references below
 
 # Installation
 
+For local installation, clone the repository and run the following commands
+
+```bash
+git clone https://github.com/raheems/cempy.git
+```
+
+Then open a Jupyter notebook and run this
+```python
+!pip install -e .
+```
 
 # How to use `cempy`
 
+Once installed, you can start importing the package and load some data
 
+```python
+import pandas as pd
+from cempy import cem
+
+# Load data
+ll = pd.read_csv('lelonde.csv')
+
+# Run CEM
+f = cem.CEM(data=ll, trt = 'treated', 
+            matching_on=['age', 'education', 'black', 'married', 'nodegree', 're74',
+                         're75', 'hispanic', 'u74', 'u75', 'q1'], 
+            metric=['re78'], 
+            exclude = [])
+
+# Get the metric summary
+f.meric_summary()
+
+# Get the dataframe with weights 
+f.get_weighted_data()
+```
+
+See the examples.ipynb file in the repository for a demonstration with some outputs.
 
 # Related software
 
