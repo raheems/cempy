@@ -14,7 +14,13 @@ For details of coarsened exact matching, please see the references below.
 
 # Installation
 
-For local installation, clone the repository and run the following commands
+To install using pip
+
+```python
+pip install cempy
+```
+
+For the most uptodate development version, install from github. Simply clone the repository and run the following commands
 
 ```bash
 git clone https://github.com/raheems/cempy.git
